@@ -1,0 +1,11 @@
+shoetcut for div ----  ".box" it would create a division with class box.
+******
+box-sizing:border box:::: ensures that the size of box remanes same on adding padding ....
+This is achieved by varying content size.
+  
+hw:
+font family
+font weight
+font style
+emphasis and importace
+how to add external fonts

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- linking ecternal css file with html -->
+    <style>
+        p{
+            color:orange  /*!important */
+        }
+        .pclass{
+            color:aqua; !important
+        }
+        #pid{
+            color: beige;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p style="font-style: italic;">Inline css.<br>
+     Define style within the same tag.</p>
+
+    <p class="pclass" > lets apply internal css on this.<br>internal css: define style tag in headv tag</p>
+
+
+    <p class="pclass" id="pid" style="color: blue;">Specificity
+    <br>
+(increasing preference )order of Specificity:<br>
+<ul>
+    <li>tag selector</li>
+    <li>class selector</li>
+    <li>id selector</li>
+    <li>inline css</li>
+    <li>!important:: <i>bad practice</i></li>
+</ul></p>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!doctype html> -> indicates its a html file
+<html lang="en"> -> indicates language used is english
+        this above html tag contain two tags:
+        ->head
+        ->body
+
+<head></head> -> contains metadata (i.e. data about data)
+    <meta charset="UTF-8"> -> indicates the character set or character encoding
+                            -> utf 8 is most commonly used encoding language
+    meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+                            -> its completely optional to use it...
+                            ->it is used to specify its compatibility with microsoft edge
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                            ->viewport is the space of screen
+                            ->width of device to be occupied by the page
+                            ->initial scale is the amount of zoom in
+    <title>Document</title> -> the title of the document
+                            eg. <title>
+                            Best and top engineering colleges 
+                            in delhi ncr, Noida & Btech College - JIIT
+                            </title>
+
+    head also contain various meta tags with specifies numerous other things such as 
+    DISCRIPTION AND CONTENT -> that appears when website is  searched on browser 
+    e.g.->
+     <meta name="description" content="Engineering Colleges in Noida - Looking for the top 
+    engineering college and B tech college in Delhi NCR, Gurgaon and Ghaziabad? JIIT is one
+     amongst the top engineering colleges in Delhi NCR offering a plethora of professional courses. 
+     For more information, visit us." />
+    <meta name="keywords" content="best engineering college in delhi ncr, best engineering 
+    college in delhi ncr, engineering college in ghaziabad, best engineering colleges in delhi ncr" />
+    <meta name="generator" content="Drupal 7 (https://www.drupal.org)" />
+ 
+    fevicons -> <link rel="icon" href="/favicon.ico"/>
+                this is a small logo that appears on search bar of browser
+
+
+<body>
+        all the content

@@ -1,0 +1,25 @@
+links: phone, mail, url etc
+div tag
+favicon
+bookmark
+implementation ofclass and id
+
+Div and span are not semantic tags.
+span tag: same as div but it is an inline 
+          element unlike div
+
+<!-- class: "." -->
+    <!-- id: "#" -->
+
+DIV is a block element but it can be made inline by
+ styling its display property to inline block
+
+
+call a number using link:
+     <a href="tel:+918865941205">Dont Call </a>
+mail using link:
+     id default in to section of mail
+
+     <a href="mailto:support@gmail.com">mail</a>
+
+IMPLEMENTATION OF ABOOKMARK IN LEC 3 HW LINUS

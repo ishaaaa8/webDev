@@ -1,0 +1,67 @@
+CSS
+Cascading style sheets
+apperance styling formatting
+
+hw:
+universal selector
+nested selector 
+attribute selector
+
+e.g adding color to html doc,visual appealing 
+
+SELECTORS:
+//in style tag
+selector{
+    property: value;
+}
+
+simple selector -> element selector:
+                p{
+                    background-color: white;
+                    font-size:larger;
+                }
+                H1{
+                    color: red;
+                }
+                table{
+                    border: 10px solid black;
+                }
+                
+                class selector:
+
+                <p class="c1">data</p> // paragraph 1 in doc
+                .c1{
+                    color: green;
+                }
+                <p class="c2">Data 2</p> //styling second apragraph differently
+                .c2{
+                    color: yellow;
+                }
+ID are UNIQUE
+                id selector:
+
+                    <button id="b1">Submit</button>
+
+                     #b1{
+                          background-color:brown;
+                        }
+                    
+
+pseudo-selector:
+                 <a class="link" href="https://www.jiit.ac.in">jiit</a>
+
+                     .link:hover{
+                             color:rgb(221, 255, 0);
+                    }
+
+                    <button id="b1">Submit</button>
+                    button:hover{ 
+                              color:bisque;
+                     }
+
+Multiple Selector:
+
+            multiple selectors:
+            table,tr,td,td{
+                border-collapse:collapse;
+            }

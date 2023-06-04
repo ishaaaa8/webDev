@@ -1,0 +1,40 @@
+inline :
+    <p style="font-style: italic;">Inline css.</p>
+internal :
+<style>
+        p{
+            color:crimson;
+            text-shadow:6cm;
+        }
+        .pclass{
+            color:rgb(228, 172, 103);
+        }
+    </style>
+
+
+external CSS:   
+                link external css file with html doc
+
+style.css:
+        p{
+            color:crimson;
+            text-shadow:6cm;
+        }
+        .pclass{
+            color:rgb(228, 172, 103);
+        }
+
+
+             link:    <link rel="stylesheet" href="style.css">
+
+
+**************SPECIFICITY:****
+(increasing preference )order of Specificity:<br>
+<ul>
+    <li>tag selector</li>
+    <li>class selector</li>
+    <li>id selector</li>
+    <li>inline css</li>
+    <li>!important:: <i>bad practice</i></li>
+</ul></p>
+

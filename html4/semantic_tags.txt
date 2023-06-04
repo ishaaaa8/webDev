@@ -1,0 +1,40 @@
+Semantics tags are:
+
+            tags have some meaning.
+
+    e.g. : Table, Form, Section ,Figure,header, 
+footer, aside, article
+     But Div and span are not semantic tags.
+
+section:    
+         defines section in doc no change in apperance
+ <input type="filename" name="> : for audio video
+
+
+article: 
+    independent text
+  we can use section inside article and vice versa as well
+
+header:
+    introductory part of page
+    logo,brand name etc
+
+footer:
+    author, copywrite,terms of use,privacy policy,refund policy etc
+
+navigation <nav></nav>: 
+            links    anchor tag used
+
+aside tag : use float right and width=40%
+
+
+    info related to the other text present
+      points to remember,summary in books,facts section in a box in books,
+      addvertisements  etc
+
+
+HW:-
+difference in header and H1.
+can we use header inside footer.
+can we use multiple header inside a page.
+can we place aside content at centre of screen
