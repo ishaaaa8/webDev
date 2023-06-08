@@ -1,0 +1,11 @@
+ background-image: radial-gradient(shape size at position,start-clolo...,last-color);
+ change spacing of colors (%)
+ set pre-defined shapes
+ repeating gradient
+
+
+    background-image: radial-gradient(circle,orange,white,green);
+    background-image:radial-gradient(white 5%,orange 10%,green 20%);
+
+
+hw:conical gradient

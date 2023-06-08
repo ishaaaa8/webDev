@@ -1,0 +1,43 @@
+DIMENSION PROPERTIES 
+    ----> this is basically dealing with content and its appearance when content is more than the size specified for block
+
+
+height
+width
+Max-height
+min-height
+max-width
+max-width
+ *** 
+ we can even set overflow property in a particular axis by:
+                                    OVERFLOWX and OVERFLOWY
+
+        .box{
+    
+    border: 5px  solid black;
+    max-height: 100px;
+}
+    .box1{
+        max-height:100px;
+        border:2px solid black;
+        overflow: scroll;
+    }
+    .box2{
+        max-height:100px;
+        border:2px solid black;
+        overflow: hidden;
+
+    }
+    .box3{
+        max-height:100px;
+        border:2px solid black;
+        overflow: auto;
+
+    }
+
+
+we have namely 4 overflows : visiblity
+                            scroll
+                            hidden 
+                            auto
+                            of which default is visibility

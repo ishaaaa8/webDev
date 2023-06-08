@@ -1,0 +1,43 @@
+.container{
+    height:400px;
+    border: 2px solid green;
+    display: flex; /*making div a flex*/
+    /* default flex direction is vertically i.e row */
+    flex-direction: column; /*flex directions: column,row-reverse,col-reverse*/
+
+    flex-wrap:wrap;   /*default wrap value is "nowrap"*/
+              /* wrap,nowrap,wrap-reverse */
+
+    flex-flow: column wrap; /*shorthand for above two*/
+
+    justify-content: flex-start ; /*left*/
+    justify-content: flex-end;  /*right*/
+    justify-content: center;
+    justify-content: space-around;  /*internal containers have equal space btw them
+                                but dont have equal space btw first container and parent container 
+                                            similarly for last child container*/ 
+    justify-content: space-evenly; /*evenly spaced */
+    justify-content: space-between; /*child are evenly spaced and first child sticks to parents margin
+                                ans similarly last gets stick to parents' margin*/
+
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch; /* default*/
+    align-items: baseline;  /*imp*/
+
+    gap: 10px; /*add gap only btw child container*/ 
+
+    align-content: flex-end;
+    align-content: flex-start;
+    align-content: center;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+    
+}
+
+.box{
+    border:1px solid brown;
+    width=50px;
+}

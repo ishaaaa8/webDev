@@ -1,0 +1,63 @@
+********
+FLEXBOX:
+Layout Model
+(->space distribution, alignment capabilities)
+
+horizontal-> main axis
+vertical-> cross axis
+
+parent container-> FLEX
+child -> flex items
+
+container>.box*4{box-$} (shortcut)-> creating class container and child classes box
+container ->parent class
+box-> child class
+
+FLEX-CONTAINER PROPERTY {PARENT CONTAINER}
+->Flex-Direction: rows(default)->vertically left
+                    column -> horizontally top
+                    ,row-reverse -> vertically right 
+                    ,col-reverse -> horizontally bottom
+
+->Flex-wrap: 1)nowrap (default)
+NOWRAP: it is default value of flex-wrap property------>
+                it ensures that flex width changes as we squeeze the viewport or screen
+            2)wrap ->
+                    this ensures that child flex container moves to next line or moves down so that 
+                    no compromise with width of child take place 
+
+            3)wap-reverse ->
+                    opposite of wrap 
+
+->flex-flow: (shorthand notation for above two)
+        e.g-> flex-flow: row wrap;
+/*both direction as well as wrap is specified in a single line statement */
+
+->Justify-content: horizontal alignment APPLICABLE ON MAIN AXIS
+    justify-content: flex-start ; /*left*/
+    justify-content: flex-end;  /*right*/
+    justify-content: center;
+    justify-content: space-around;  /*internal containers have equal space btw them
+                                but dont have equal space btw first container and parent container 
+                                            similarly for last child container*/ 
+    justify-content: space-evenly; /*evenly spaced */
+
+    justify-content: space-between; /*child are evenly spaced and first child sticks to parents margin
+                                ans similarly last gets stick to parents' margin*/
+
+-> align-items: vertical alignment APPLICABLE ON CROSS axis
+        align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch; /* default*/
+    align-items: baseline;  /*imp*/
+
+    gap: 10px;   ->row-gap    _>col-gap
+     /*add gap only btw child container*/   
+     difference in margin and gap:
+     margin creates space btw child containers and also outside edge of outermost containers. Even if you specify margin-left to all containers than also the outermost container will have a margin at outer side.
+Therefore, to add space only between two child containers we need to use gap rather than margin.
+
+
+
+

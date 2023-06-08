@@ -1,0 +1,76 @@
+shadows:
+box text
+
+TEXT SHADOW:
+add multiple text shadows 
+blur shadows 
+basically 4 parameters are given of which 2 of them (first two) are necessary:
+
+    first - horizontal
+    second-vertical
+    third-blur effect (BLUR EFFECT:  Negative values are not allowed.)
+    fourth-color of shadow
+
+Multiple Shadows-
+    comma seperated two shadows values 
+        text-shadow:3px 3px 3px red,5px 5px 5px green;
+        text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+
+*********************************
+
+BOX SHADOW:
+
+->two, three, or four <length> values.
+->If only two values are given, they are interpreted as <offset-x> and <offset-y> values.
+->If a third value is given, it is interpreted as a <blur-radius>.
+->If a fourth value is given, it is interpreted as a <spread-radius>.
+->Optionally, the inset keyword.
+->Optionally, a <color> value.
+
+
+/* adding vertical shadow  */
+/* adding horizontal shadow */
+/* adding blured shadows */
+/* Multiple shadows  */
+/* how can shadows be added to all 4 sides */
+
+NOTE: Default color of a box shadow is same as that of text color;
+    text color- black 
+    shadow-black
+
+BLUR EFFECT:  Negative values are not allowed.
+while you can explicitally specify shadow color_>
+
+            box-shadow:10px 10px; /*color of shadow is same as that of text in case  of box shadow*/
+   color:blue;
+
+   box-shadow:10px 10px 15px rgb(92, 111, 129); /*to give different color to shadow than text*/
+   /*--------(horizontal vertical blur color)------*/
+
+
+   box-shadow:10px 10px 15px black,20px 20px 55px grey; /*multiple shadow to a box*/
+   /* by default these boxshadows are in bottom and right */
+
+   /* we can make them appear in left and top of box too */
+   box-shadow:-10px -10px 15px rgb(176, 73, 73);
+
+
+   ***NOTICE NEGATIVE VALUES GIVEN***
+
+***all 4 sides covered***
+
+   /*double shadow */
+   box-shadow:-15px -15px 20px aqua,20px 20px 25px blue; 
+*********
+SPREAD RADIUS::
+<spread-radius>
+This is a fourth <length> value. Positive values will cause the shadow to expand and grow bigger,
+ negative values will cause the shadow to shrink. If not specified, it will be 0 (the shadow will be the same size as the element).
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+
+
+
+
+
+    

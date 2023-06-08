@@ -1,0 +1,15 @@
+For flex-items :
+we have:
+->order
+->flex-grow (default : 0)
+ 
+->flex-shrink (for responsive sites)  (default :1)
+->flex-basis  (% can also be use use border-box box-sizing)   
+      ******  flex-basis works same as width but it is responsive as it do not trim the content in case of overflow 
+        it flexibly changes its width according to content
+
+-> flex (shorthand for above 4 )
+                ->flex:3 4 2 120px;
+                (flex:order grow shrink basis)
+->align-self:
+                flex-start flex-end flex stretch

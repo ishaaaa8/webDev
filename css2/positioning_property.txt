@@ -1,0 +1,5 @@
+position: static; default
+position: relative; relative to itself
+position: absolute; is removed from normal doc and no space is created andplaced with pos relative to ancestor if any else relative to initial containing block
+position: fixed; is removed from normal doc and no space is created and positioned relative to initial containing block
+position: sticky; The element is positioned according to the normal flow of the document, and then offset relative to its nearest scrolling ancestor 
