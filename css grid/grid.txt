@@ -1,0 +1,55 @@
+GRID:
+2D
+row gap
+clm gap
+
+grid and flexbox together are used to layout
+flexbox: how content flows  1D
+********************************
+grid: layout creation 2D
+
+FLEXIBLE GRID:
+ display:flex; similarly for grid we have:
+ display:grid;
+
+ grid or container  
+ grid items
+
+gtc grid template column
+gtr grid template ros
+grid-template-columns: 200px 200px 200px; (3column)
+    grid-template-rows: 100px 100px 100px 100px; (4roe)
+
+
+FLEXIBE GRID Responsive 
+fr ->fraction is used
+
+   grid-template-columns: 1fr 1fr 1fr; 
+   
+   /* _> this can also be written as repeat(3,1fr);*/
+
+   or
+     grid-template-columns: 100px repeat(3,1fr);
+    ->first column 100px next 3 columns 1fr each (equally divided eual fraction)
+
+
+   -> gap: 15px;
+
+
+grid column start
+
+shorthand:
+grid-roe:1/span 3;
+
+IMP*************properties:*************************
+justify-content
+align-content
+justify-self
+justify-items
+align-items
+align-self
+place-self
+place items
+
+*********************************
+

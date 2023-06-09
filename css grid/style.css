@@ -1,0 +1,28 @@
+.container{
+    border:1px solid black;
+    height: 500px;;
+    background-color: crimson;
+    display: grid;;
+    grid-template-columns: 1fr 1fr 1fr;
+     /* _> this can also be written as repear(3,1fr); */
+    /* grid-template-columns: 100px repeat(3,1fr); */
+    grid-template-rows: repeat(4,1fr);
+    gap: 15px;
+}/*container properies*/
+.box{
+    background-color: aquamarine;
+    border:3px solid black;
+    /* width:80px; */
+    /* height: 80px; */
+}/*container properies*/
+
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}/*grid item property*/
+
+#box3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
