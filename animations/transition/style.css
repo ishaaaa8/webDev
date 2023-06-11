@@ -1,0 +1,38 @@
+.container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    border:3px solid salmon;
+    background-color: aquamarine
+
+    
+}
+.box{
+    border: 2px solid orange;
+    background-color: palevioletred;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    /* transition:0.01s; */
+    transition-property: all;   /*bad practice*/
+    transition-property: background-color;
+    transition-delay: 3s;
+
+    transition: background-color 1s ease 1s;   /*shorthand*/
+    transition:transform 2s ease 0.5s;
+
+    transition :width 0.2s linear 0.5s;
+    transition: transform 2s cubic-bezier(1, 2.56, 0,-0.89) 0.5s;
+}
+#box1:hover{
+    /* background-color: hotpink;
+    
+    
+}
+#box2:hover{
+    /* width:50px; */
+}
+.box:hover{
+    /* transform: rotate(45deg); */
+    transform: scale(2) translateY(300px) rotate(360deg);;
+}

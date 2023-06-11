@@ -1,0 +1,25 @@
+:root{
+    --use-color:#981a2b;
+    color:var(--use-color);
+}
+/* globally created variables */
+/* *{
+    --use-color:#981a2b;
+    color:var(--use-color);
+} */
+.container{
+    border: 1px solid var(--use-color);
+    background-color:blanchedalmond;
+    
+    background-color: var(--use-color);
+    height:300px;
+    width: 300px;
+}
+.box{
+    border:2px solid hotpink;
+    background-color: aquamarine;
+    font-weight: bold;
+    /* color:blueviolet; */
+    /* declaring variable*/
+
+}

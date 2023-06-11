@@ -1,0 +1,23 @@
+we need to app;y same efeect to mulitple elements 
+we create name variables
+eg  --use-color:#981a2b;
+    color:var(--use-color);
+
+remember scope oj a variable remains in the id/class in whose style it is created
+to declare a variable globally we use:
+:root{
+    --use-color:#981a2b;
+    color:var(--use-color);
+}
+
+sometimes:::
+hw:::::::find differeence in these two ways of declarations
+
+*{
+    --use-color:#981a2b;
+    color:var(--use-color);
+} 
+e.g2):::
+
+   --mycolor:#1234455;
+   color:var(--mycolor); 

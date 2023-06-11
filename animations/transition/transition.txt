@@ -1,0 +1,42 @@
+transition:
+property bg color ("all" bad practice)
+duration time 2s
+transition timing fn: ease-in ease-out
+transition delay
+    transition: background-color 2s ease 1s;   /*shorthand*/
+
+    if transitoin property is not explicitly set then "all" will be default
+
+
+ *************-> transform: scale(2) translateY(300px) rotate(360deg);;
+
+
+
+    transition: transform 0.2s cubic-bezier(1, 2.56, 0,-0.89) 0.5s;
+    create yur own transition timeiing fn using fn available on inspecting web ::-webkit-progress-value
+
+    .box{
+    border: 2px solid orange;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    /* transition:0.01s; */
+    transition-property: all;   /*bad practice*/
+    transition-property: background-color;
+    transition-delay: 3s;
+
+    transition: background-color 1s ease 1s;   /*shorthand*/
+    transition:transform 1s ease 1s;
+
+    transition :width 200ms linear ;
+
+}
+#box1:hover{
+    background-color: hotpink;
+    transform: rotate(45deg);
+    
+}
+#box2:hover{
+    width:50px;
+}

@@ -1,0 +1,11 @@
+math fns:
+calc()-> + - * /
+e.g. -> calc(100% -50px)
+
+height:min(50%,400px);
+similarly max();
+
+minmax()-> used when additional rows are automatically added to grid .... It helps to define max possible width or parameter or minimum
+advanced grid fn -> grid-auto-rows:minmax(100px,400px)
+
+

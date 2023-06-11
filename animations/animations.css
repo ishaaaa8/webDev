@@ -1,0 +1,63 @@
+.container{
+    width: 100%;
+    /* width: 212px; */
+    height: 212px;
+    background-color:hotpink;
+    border:1px solid  brown;
+    /* border-radius: 50%; */
+
+}
+
+.box{
+    height: 212px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aquamarine;
+    /* border-radius: 50%; */
+
+    animation-name: isha;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    /* animation-direction: normal; */
+    /* animation-direction: reverse;
+     */
+     animation-direction: alternate-reverse;
+    /* animation-fill-mode:forwards; */
+
+
+}
+
+/* keyframes are used to specify starting and ending time of animations */
+
+@keyframes isha{
+    0%{
+        width: 212px;
+        background-color: lightpink;
+    }
+    30%{
+        background-color: palevioletred;
+        width: 35%;
+    }
+    65%{
+        background-color: hotpink;
+        width: 70%;
+    }
+    100%{
+        width: 100%;
+        background-color: deeppink;
+    }
+
+}
+
+
+/* @keyframes isha{
+    from{
+        width: 0;
+
+    }
+    to{
+        width: 100%;
+    }
+} */
