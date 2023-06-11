@@ -1,0 +1,2 @@
+handle style of your website on different screen sizes.
+ 

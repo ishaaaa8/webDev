@@ -1,0 +1,25 @@
+.container{
+    height: 700px;
+    border: 1px solid black;
+    background-color: yellow;
+    display: grid;
+
+   gap: 10px;
+   /* grid-auto-rows: minmax(100px,auto); */
+   grid-auto-rows: minmax(0,auto);
+/* if you want to give grid-auto-rows u need to remove gtr*/
+ /* if grid auto rows are not used then on adding 
+ additional div they will start to squeeze rather than being of min width as that specified in min max of auto*/
+
+   grid-template-columns: repeat(4,1fr);
+
+/* grid auto column */
+}
+.box{
+    border:1px solid green;
+    background-color: aqua;
+
+}
+
+
+

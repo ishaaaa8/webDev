@@ -1,0 +1,47 @@
+increasing soan of individual row or colmn
+row/start/col start/row end/col end
+Grid Area:
+    gtc
+    gtr
+    template-grid-area:
+    ->provide name to block
+
+    use grid area in styling ids to assign items to individual grid block created above
+
+
+hw:
+diff in inline grid and grid
+
+ADVANCED GRID ROW:
+
+1) 1fr
+2) repeat fn  gtc:repeat(3,1fr);
+        ot gtc:1fr 1fr 1fr;
+3) grid auto rows -> recall whenever you check ur fb feed rows are automatically generated
+
+min wudth max width etc of this automatically 
+generated row is defined by MINMAX() fn
+
+grid properties:
+JUSTIFY CONTENT: MAIN AXIS START END CENTER S AROUND S BTW S EVENLY
+align item : cross AXIS
+align content : 
+place content : 
+jutify-items
+
+
+items:justify self 
+   align self
+   place items  shorthand property for justify and align
+   place self 
+
+
+ -> contaiiner :align-items: center;
+    justify-items: center;
+    
+
+  -> items properties  justify-self: center;
+    align-self: center;
+
+    ****the above four do the samr thing the difference is that the self works for grid items unlike item-properties 
+    we use self property when we want to apply on a specified element and whereas the item-properties work for all the ethe elemts present in the grid
