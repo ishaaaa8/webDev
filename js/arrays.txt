@@ -1,0 +1,3 @@
+ARRAYS:
+declaring array in js:
+let arr=[1,2,3];

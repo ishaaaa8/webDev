@@ -1,0 +1,223 @@
+variable:- let keyword
+js-> dynamic type lang 
+variable declaration can be done in two ways:
+->let keyword
+->var keyword
+no need to specify datatype
+var keyword 
+diff in let and var
+1)
+let-> have scope within the block
+var-> have global scope
+2)
+we can NOT redeclate a variable declared using let //error
+but
+we can redeclare var variable::::
+
+var c=4.8;
+console.log(c);//4.8
+var c=10; //number literal
+console.log(c);//10
+
+let my_name='isha';
+console.log(my_name);
+my_name=8;  //valid
+console.log(my_name); //dynamic typing
+
+Constants:
+if we try to assign a constant variable then a error generates
+const num =10;
+num=8; //ERROR assjignment to constant variable
+
+variable naming rule;
+
+let a=3,b=4; -> valid
+
+let d;//->undefined
+console.log(d); 
+
+primitive types:
+->string 
+->number
+->boolean
+->undefined
+->null 
+
+Reference datatypes:
+1) object:
+multiple variables linked with each other 
+person-> age,firstName
+access: dot notation ->person.age
+      bracket notation -> person['age]
+
+2) Arrays:used to contain  a list of items
+data structure 
+indexes same as arrays in c++
+
+3) Functions
+
+
+OPERATORS:
+
+arithmetic -> ** exponentiation
+pre/post increment/decrement
+assignment
+comparison OPERATORS
+equality operator 
+*****************
+=== : value as well as data type is same //strict equality
+==: values are equal //loose equality
+
+ternary operator
+cond?val1:val2;
+let status = (age>=18)?'i can vote':'i can not vote';
+
+logical operator:
+&& / || / !
+
+non-Boolean logical
+falsy : undefuned null 0 false ' ' NaN
+truthy: anything that is not falsy
+
+(false||'isha')-> isha
+
+(false|| 5||1) -> o/p 5 ->short circuiting (in this as soon as or operator finds a truth value it prints it and do not see ahead)
+
+Bitwise:
+and or
+ 2&3->2
+ 2|3->3
+
+
+Control statement
+
+switch case
+
+loops
+
+
+MATH OBJECT:
+
+math.random()
+
+* Math.random() //between 0 and 1
+0.44183949223779506
+
+Math.PI
+//value of pi
+
+Math.round(1.8)
+//2
+//can work with or without semicolon
+* Math.round(1.5);
+2
+Math.round(1.6)
+2
+Math.round(1.2)
+1
+
+Math.max(8,10,4)
+10
+Math.min(4,8,10)
+4
+
+Math.abs(-2)
+2
+
+There are two ways to create a string in javascript :
+-> string Primitive type
+-> string as object type
+
+let name= new string('isha');  -> object string
+
+let lastName='singh';
+let firstName=new String('isha');  //String constructor function is used to create string object
+console:  //S of String in caps
+      typeof(firstName)
+      'object'
+      typeof(lastName)
+      'string'
+
+
+NOTE**:::
+     we can make primitive types of strings into object type by using 
+     dot oprerator
+
+     1)lastName.length();
+
+     2) lastName.includes('gh')
+      true 
+      3)
+      let message='this is my first message';
+      let words=message.split(' ');
+      ['this', 'is', 'my', 'first', 'message']
+
+toLower
+toUpper
+lastName[0]
+trim 
+startWith
+endsWith
+replace
+inexOf
+split
+length
+includes
+trimstart
+trimend
+
+Template literal
+
+escape sequences:
+
+let esc_Chr='here we are \n learning \' "escape \nsequences';
+console.log(esc_Chr);
+
+if we want to print ' then we haave to use escape character
+
+ we cann avoid using '\n' by using template literal
+
+using-> ` bskdhfkawh`
+
+let temp_literal=`this will 
+remain
+as you write
+here`;
+console.log(temp_literal);
+0/p on console:
+this will 
+remain
+as you write 
+here
+
+
+placeholdere::
+let placeHolder=`${firstName}`;
+console.log(placeHolder);
+
+
+DATE:
+
+let date=new Date();
+console.log(date);
+
+let date2=new Date('feb 15 2020');
+console.log(date2);
+
+let date3=new Date(1998,2,15,7);
+console.log(date3);
+*******
+ //setters
+//getter
+date3.setFullYear(2023);
+console.log(date3.getFullYear());
+
+
+
+
+
+
+
+
+
+ 
