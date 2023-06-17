@@ -1,0 +1,8 @@
+Try and catch
+try{
+    throw;
+}
+catch(){
+}
+
+

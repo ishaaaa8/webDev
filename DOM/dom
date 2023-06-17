@@ -1,0 +1,25 @@
+    at <anonymous>:1:23
+(anonymous) @ VM18103:1
+let newClass=document.getElementsByClassName('.prac')
+undefined
+newclass;
+
+newClass;
+HTMLCollection []length: 0[[Prototype]]: HTMLCollection
+let content=documnet.querySelector('.prac')
+
+let content=document.querySelector('.prac')
+undefined
+content;
+<section class=​"prac home__whyCodeHelpSection">​<div class=​"bg-[#1b1d1e]​ relative">​…​</div>​</section>​
+let newChild=document.createElement('h3')
+undefined
+newchild;
+
+newChild;
+<h3>​</h3>​
+newChild.textContent
+''
+newChild.textContent='i am new new'
+'i am new new'
+content.appendChild(newChild);
