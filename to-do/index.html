@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App 2023 usinh Local Storage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Mulish:wght@200;300;400&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main class="app">
+        <section class="greeting">
+            <h2 class="title">What's up, <input type="text" id="name" placeholder="Name here">
+            </h2>
+        </section>
+
+
+
+
+
+        <section class="create-todo">
+            <h3>CREATE A TODO</h3>
+
+
+
+            <form id="new-todo-form">
+                <h4>What's on your todo?</h4>
+                <input type="text" 
+                placeholder="e.g. Get some milk"
+                id="content"
+                name="content">
+                <h4>
+                    Pick a category
+                </h4>
+
+
+                <div class="options">
+                <label>
+                    <input type="radio"             value="business" id="category1" name="category">
+                    <span class="bubble business"></span>
+                    <div>Business</div>
+
+                </label>
+                <label>
+                    <input type="radio"             value="personal" id="category1" name="category">
+                    <span class="bubble personal"></span>
+                    <div>Personal</div>
+
+                </label>
+                
+                </div>
+
+                <input type="submit" value="ADD TODO">
+            </form>
+        </section>
+
+
+
+
+        <section class="todo-list">
+			<h3>TODO LIST</h3>
+			<div class="list" id="todo-list"></div>
+		</section>
+
+    </main>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
